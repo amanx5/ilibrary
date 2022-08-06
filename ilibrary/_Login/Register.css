@@ -1,0 +1,197 @@
+*{ 
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin:0; 
+    padding:0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfe;
+}
+
+.register{
+    background-color:white;
+    padding: 20px 20px;
+    box-shadow: 0 12px 18px 2px rgba(34,0,51,.04),0 6px 22px 4px rgba(7,48,114,.12),0 6px 10px -4px rgba(14,13,26,.12);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#form_divs_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form_divs{
+    padding: 10px;
+}
+
+.formitems{
+    margin: 10px 0px;
+    margin-bottom: 0; 
+}
+
+#select_div{
+    display: inline-flex;
+    box-sizing: border-box;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    padding: 6px 7px;
+    width: 100%;
+    user-select: none; 
+}
+
+#select_div:hover{
+    background-color: #f6f9fe;;
+}
+
+#select_div:focus{
+    border: 1px solid #0a84ff;
+    outline: 2px solid rgb(158, 158, 252);
+}
+
+.light{
+    font-weight: 300;
+    color: #747474;
+}
+.bold{
+    font-weight: 400;
+    color: #333;
+}
+
+.inputs{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #b5b5b5;
+}
+.inputs::placeholder{
+    font-weight: 300;
+}
+
+.inputs:focus{
+    border: none;
+    border: 1px solid #0a84ff;
+    outline: 2px solid rgb(158, 158, 252);
+}
+
+#checkbox_pass{
+    cursor: pointer;
+    margin: 5px 5px;
+    height: 15px;
+    width: 15px;
+}
+
+#pass_formdiv{
+    margin-bottom: 18px;
+}
+
+#input_pass{
+    margin-bottom: 5px;
+}
+#label_showpass{
+    user-select: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#buttons_div{
+    display: flex;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#submit_b{  
+    border: none;
+    border-radius: 5px;
+    background-color: #236ae4;
+    color:white;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px 13px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px; 
+}
+
+#submit_b:hover{
+    background-color: #0060df;
+    box-shadow: -1px -1px 2px #dbdada, 0px 1px 2px #bcabab;
+}
+
+.go_back{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #0060df;
+}
+
+.go_back:hover{
+    background-color: #f6f9fe;
+    color: #1b4da2;
+    border-radius: 5px;
+}
+
+.fail_resp{
+    margin-top: 20px;
+    color: #d93025;
+}
+
+.warn{
+    margin: auto;
+    padding-right: 8px;
+}
+
+#response{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resp_header{
+    padding-top: 10px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#resp_footer{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.tick{
+    margin: auto;
+    padding-right: 16px;
+}
+
+/* Hiding Arrows From Input Number in chrome,etc */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hiding Arrows From Input Number in Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

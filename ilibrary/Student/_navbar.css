@@ -1,0 +1,142 @@
+*{ 
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0; 
+    padding: 0;
+    color: #333;
+}
+
+body{
+    background-color:#f9f9f9;
+}
+
+*:focus{
+    outline: none;
+}
+
+#navbar{
+    display:flex;
+    background-color: white;
+    height: 55px;
+}
+
+.navitems{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/******************************** logo and home ********************************/
+#nav_home{
+    margin: 0px auto 0px 35px; 
+}
+
+#nav_img{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    margin: 0 10px 0 0;
+}
+#home_link{
+    display: flex;
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+}
+
+/********************************** search ********************************/
+#nav_search:focus-within{
+    background-color: white;
+    outline: 2px solid rgb(158, 158, 252);
+}
+
+#nav_search{
+    background-color: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 75%;
+    min-width: 330px;
+    width: 30%;
+    margin: auto 30px;
+}
+
+#src_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border:none;
+    margin: 0px 13px;
+    cursor: pointer;
+}
+
+#input_src{
+    border: none;
+    background: none;
+    padding-top: 2px;
+}
+
+/***********************matching the width of logo & home*******************/
+#matching_width{
+    display: flex;
+    height: 100%;
+    width: 128.817px;  
+    margin: 0 35px 0 auto;
+    justify-content: end;
+    align-items: center;
+}
+
+/********************************** account ********************************/
+#nav_profile{
+    display: inline-flex;
+    position: relative;
+}
+#profile_icon{
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid #cdcdcd;
+    box-shadow: rgba(43, 42, 51, 0.1) 0px 1px 6px 0px;
+    border-radius: 5px;
+    top: 38px;
+    right: -5px;
+    width: 100px;
+}
+
+.show{
+    display: block;
+}
+
+.dd_buttons{
+    display: flex;
+    font-size: 18px;
+    background: none;
+    border:none;
+    text-decoration: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd_buttons:hover{
+    background-color: #ecf6ff;
+    border-radius: 5px;
+}
+
+#logout_btn{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
