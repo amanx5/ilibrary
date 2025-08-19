@@ -92,7 +92,7 @@ ilibrary/
 ![Admin Account Settings](screenshots/ui/admin/returnbook.png)
 
 ### ⚙️ Admin - Account Settings
-![Admin Account Settings](screenshots/ui/accountsettings.png)
+![Admin Account Settings](screenshots/ui/admin/accountsettings.png)
 
 
 
